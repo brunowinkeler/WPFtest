@@ -5,5 +5,6 @@
     <Grid>
         <Button Content="Button" HorizontalAlignment="Left" Margin="24,276,0,0" VerticalAlignment="Top" Width="92"/>
         <Button Content="Teste" HorizontalAlignment="Left" Margin="139,101,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Teste2" HorizontalAlignment="Left" Margin="344,235,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
