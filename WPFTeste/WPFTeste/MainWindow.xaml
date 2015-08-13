@@ -1,0 +1,8 @@
+﻿<Window x:Class="WPFTeste.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="24,276,0,0" VerticalAlignment="Top" Width="92"/>
+    </Grid>
+</Window>
