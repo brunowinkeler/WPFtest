@@ -3,7 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button Content="Teste" HorizontalAlignment="Left" Margin="139,101,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Teste2" HorizontalAlignment="Left" Margin="344,235,0,0" VerticalAlignment="Top" Width="75"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350*"/>
+            <ColumnDefinition Width="63*"/>
+            <ColumnDefinition Width="104*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Teste" HorizontalAlignment="Left" Margin="264,149,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
+        <Button Content="Teste2" HorizontalAlignment="Left" Margin="10,164,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
+        <Expander Header="Expander" HorizontalAlignment="Left" Margin="263,96,0,0" VerticalAlignment="Top" Height="23" Width="76">
+            <Grid Background="#FFE5E5E5"/>
+        </Expander>
+        <GridSplitter HorizontalAlignment="Left" Height="100" Margin="194,103,0,0" VerticalAlignment="Top" Width="5"/>
+        <Slider HorizontalAlignment="Left" Margin="78,45,0,0" VerticalAlignment="Top" Width="222"/>
     </Grid>
 </Window>
